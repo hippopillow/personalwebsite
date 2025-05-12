@@ -22,7 +22,7 @@ const Hero = () => {
       {/* Hero content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
-          <span className="block">Yo, I’m Hippo</span>
+          <span className="block">Hey, I’m Hippo</span>
           <span className="block mt-2 text-3xl sm:text-4xl md:text-5xl opacity-90">
             Aspiring Cybersecurity Specialist
           </span>
