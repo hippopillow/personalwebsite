@@ -30,38 +30,38 @@ const Skills = () => {
   const skillCategories = [
     {
       icon: Code,
-      title: "Frontend",
-      skills: ["React", "TypeScript", "HTML/CSS", "Tailwind CSS", "Redux"]
+      title: "Malware Development",
+      skills: ["Reverse Engineering", "Disassembly", "Exploitation", "Rootkits", "Shellcode"]
     },
     {
       icon: Server,
-      title: "Backend",
-      skills: ["Node.js", "Express", "Python", "Django", "REST APIs"]
+      title: "Offensive Security",
+      skills: ["Penetration Testing", "Vulnerability Research", "Exploits", "Buffer Overflow", "Privilege Escalation"]
     },
     {
       icon: Database,
-      title: "Databases",
-      skills: ["PostgreSQL", "MongoDB", "SQL", "Firebase", "Supabase"]
+      title: "Databases & Networking",
+      skills: ["MySQL", "PostgreSQL", "TCP/IP", "Packet Analysis", "Network Security"]
     },
     {
       icon: GitBranch,
-      title: "Version Control",
-      skills: ["Git", "GitHub", "Code Reviews", "CI/CD", "Agile"]
+      title: "Version Control & DevOps",
+      skills: ["Git", "GitHub", "CI/CD", "Docker", "Kubernetes"]
     },
     {
       icon: Layout,
-      title: "UI/UX",
-      skills: ["Responsive Design", "Figma", "User Testing", "Accessibility"]
+      title: "System Analysis & Forensics",
+      skills: ["Memory Dump Analysis", "Log Analysis", "Digital Forensics", "Malware Sandbox", "Incident Response"]
     },
     {
       icon: Globe,
-      title: "Deployment",
-      skills: ["AWS", "Netlify", "Vercel", "Docker", "Kubernetes"]
+      title: "Deployment & Automation",
+      skills: ["Linux", "AWS", "Netlify", "Docker", "CI/CD Pipelines"]
     }
   ];
 
   return (
-    <section id="skills" className="py-24">
+    <section id="skills" className="py-24 bg-royal-blue">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-center mb-16 text-white">Skills & Expertise</h2>
         
