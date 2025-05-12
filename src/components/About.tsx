@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="py-24 bg-royal-blue">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-center mb-16 text-white">About Me</h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           <div className="flex flex-col justify-center">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 transition-all duration-300 hover:bg-white/20 hover:transform hover:scale-105">
@@ -16,31 +16,31 @@ const About = () => {
                 </div>
                 <div className="ml-4">
                   <span className="text-white/80 text-sm">Based in</span>
-                  <h3 className="text-lg font-semibold text-white">New York, NY</h3>
+                  <h3 className="text-lg font-semibold text-white">United States</h3>
                 </div>
               </div>
-              
-              <h3 className="text-xl font-bold mb-4 text-white">My Story</h3>
+
+              <h3 className="text-xl font-bold mb-4 text-white">Who I Am</h3>
               <p className="text-white/90 leading-relaxed mb-6">
-                I'm a passionate software developer with a keen eye for detail and a commitment to creating elegant solutions to complex problems. With a background in [Your Background], I've developed a strong sense for user-centric design and efficient, maintainable code.
+                I'm a cybersecurity enthusiast with a growing focus on malware development, reverse engineering, and vulnerability research. At just 13 years old, I'm already building the foundation to become a private offensive security contractor by 18 — capable of developing custom malware, exploit chains, and stealth tooling for red team and research applications.
               </p>
               <p className="text-white/90 leading-relaxed">
-                When I'm not coding, you can find me [Your Hobbies/Interests]. I believe that these diverse interests help fuel my creativity and problem-solving abilities in my development work.
+                I learn by doing: building, breaking, analyzing. My work includes developing proof-of-concept malware in controlled environments, experimenting with evasion techniques, and learning how real-world attackers operate — so I can one day outthink them.
               </p>
             </div>
           </div>
-          
+
           <div>
-            <h3 className="text-xl font-bold mb-6 text-white">My Personality</h3>
+            <h3 className="text-xl font-bold mb-6 text-white">Mindset & Strengths</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
               {[
-                { trait: "Analytical", description: "I break down complex problems methodically" },
-                { trait: "Creative", description: "I find innovative solutions to challenges" },
-                { trait: "Detail-oriented", description: "I pay attention to the small things" },
-                { trait: "Collaborative", description: "I thrive working with diverse teams" }
+                { trait: "Tactical", description: "I understand attacker logic and use it to build smarter defenses and tools." },
+                { trait: "Resilient", description: "I keep pushing through bugs, crashes, and blocks until I succeed." },
+                { trait: "Precise", description: "I value clean, efficient, and low-level code — especially in malware development." },
+                { trait: "Self-taught", description: "I don’t wait for school to teach me. I go out and master it myself." },
               ].map((item, index) => (
-                <div 
-                  key={index} 
+                <div
+                  key={index}
                   className="bg-white/10 backdrop-blur-sm p-4 rounded-lg transition-all duration-300 hover:bg-white/20 hover:transform hover:scale-105 hover:rotate-1 cursor-pointer"
                 >
                   <h4 className="font-medium text-white mb-2">{item.trait}</h4>
@@ -48,15 +48,16 @@ const About = () => {
                 </div>
               ))}
             </div>
-            
-            <h3 className="text-xl font-bold mb-6 text-white">Languages & Technologies</h3>
+
+            <h3 className="text-xl font-bold mb-6 text-white">My Toolkit</h3>
             <div className="flex flex-wrap gap-3">
               {[
-                "JavaScript", "TypeScript", "React", "Node.js", "Python", 
-                "HTML/CSS", "SQL", "Git", "Docker"
+                "Python", "C++", "Assembly", "x64dbg", "IDA Free",
+                "Ghidra", "Windows Internals", "PowerShell", "Batch",
+                "Linux", "Wireshark", "Sysinternals", "Git"
               ].map((tech, index) => (
-                <span 
-                  key={index} 
+                <span
+                  key={index}
                   className="inline-block px-3 py-2 bg-white/10 backdrop-blur-sm text-white rounded-full text-sm font-medium transition-all duration-300 hover:bg-white/20 hover:transform hover:scale-110 cursor-pointer"
                 >
                   {tech}
