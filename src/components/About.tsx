@@ -37,7 +37,7 @@ const About = () => {
                 { trait: "Tactical", description: "I understand attacker logic and use it to build smarter defenses and tools." },
                 { trait: "Resilient", description: "I keep pushing through bugs, crashes, and blocks until I succeed." },
                 { trait: "Precise", description: "I value clean, efficient, and low-level code — especially in malware development." },
-                { trait: "Self-taught", description: "I don’t wait for school to teach me. I go out and master it myself." },
+                { trait: "Self-taught", description: "I figure things out myself and don't wait for someone else to teach me." },
               ].map((item, index) => (
                 <div
                   key={index}
