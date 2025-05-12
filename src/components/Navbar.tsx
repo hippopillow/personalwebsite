@@ -32,7 +32,7 @@ const Navbar = () => {
             className="text-xl font-bold cursor-pointer text-white"
             onClick={() => scrollToSection('hero')}
           >
-            YourName
+            HippoPillow
           </div>
           
           <div className="flex space-x-8">
