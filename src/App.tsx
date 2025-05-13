@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 
 function App() {
   useEffect(() => {
-    document.title = "YourName | Software Developer";
+    document.title = "HippoPillow";
   }, []);
 
   return (
