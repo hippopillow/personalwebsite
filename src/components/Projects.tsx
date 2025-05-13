@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 type Project = {
   id: number;
@@ -7,38 +7,34 @@ type Project = {
   description: string;
   image: string;
   tags: string[];
-  liveLink?: string;
-  githubLink?: string;
+  sourceLink: string;
 };
 
 const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce platform with user authentication, product catalog, and payment processing.",
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      liveLink: "https://example.com",
-      githubLink: "https://github.com/yourusername/project"
+      title: "Discord-based RAT",
+      description: "A remote access tool that operates through Discord, enabling remote control over compromised machines.",
+      image: "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      tags: ["Discord", "RAT", "C++", "Python"],
+      sourceLink: "https://github.com/hippopillow"
     },
     {
       id: 2,
-      title: "Portfolio Website",
-      description: "A responsive portfolio website showcasing projects and skills with a modern design.",
-      image: "https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      tags: ["React", "Tailwind CSS", "Framer Motion"],
-      liveLink: "https://example.com",
-      githubLink: "https://github.com/yourusername/project"
+      title: "Advanced Antivirus with Deobfuscation & Protection",
+      description: "An advanced antivirus software that includes built-in deobfuscation, host scanning, file scanning, and kernel protection.",
+      image: "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      tags: ["Antivirus", "Deobfuscation", "Security", "Malware Analysis"],
+      sourceLink: "https://github.com/hippopillow"
     },
     {
       id: 3,
-      title: "Task Management App",
-      description: "A task management application with drag-and-drop functionality, user authentication, and real-time updates.",
+      title: "Payload Generating AI",
+      description: "An AI-powered system that generates customized payloads for penetration testing and security research.",
       image: "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      tags: ["React", "Firebase", "TypeScript"],
-      liveLink: "https://example.com",
-      githubLink: "https://github.com/yourusername/project"
+      tags: ["AI", "Payload Generation", "Pentesting", "Machine Learning"],
+      sourceLink: "https://github.com/hippopillow"
     }
   ];
 
@@ -74,28 +70,15 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="flex space-x-3">
-                  {project.liveLink && (
-                    <a 
-                      href={project.liveLink} 
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center text-white/90 hover:text-white text-sm font-medium"
-                    >
-                      <ExternalLink size={16} className="mr-1" />
-                      Live Demo
-                    </a>
-                  )}
-                  {project.githubLink && (
-                    <a 
-                      href={project.githubLink} 
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center text-white/90 hover:text-white text-sm font-medium"
-                    >
-                      <Github size={16} className="mr-1" />
-                      View Code
-                    </a>
-                  )}
+                  <a 
+                    href={project.sourceLink} 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center text-white/90 hover:text-white text-sm font-medium"
+                  >
+                    <Github size={16} className="mr-1" />
+                    Source Coming Soon
+                  </a>
                 </div>
               </div>
             </article>
