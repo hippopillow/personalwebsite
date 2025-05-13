@@ -22,7 +22,7 @@ const Hero = () => {
         <p className="text-xl md:text-2xl max-w-2xl mx-auto opacity-90 mb-8">
           I specialize in malware development, reverse engineering, and offensive security — currently building skills to become a private cybersecurity contractor.
         </p>
-        <div className="absolute bottom-12 left-0 right-0 flex justify-center animate-bounce">
+        <div className="mt-8">
           <button 
             onClick={scrollToAbout}
             className="text-white hover:text-gray-200 transition-colors"
