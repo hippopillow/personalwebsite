@@ -16,7 +16,7 @@ const Projects = () => {
       id: 1,
       title: "Discord-based RAT",
       description: "A remote access tool that operates through Discord, enabling remote control over compromised machines.",
-      image: "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmN0dV2zbKKuXpYwpuwe5CJsrlDP1KchtO2g&s",
       tags: ["Discord", "RAT", "C++", "Python"],
       sourceLink: "https://github.com/hippopillow"
     },
@@ -24,7 +24,7 @@ const Projects = () => {
       id: 2,
       title: "Advanced Antivirus with Deobfuscation & Protection",
       description: "An advanced antivirus software that includes built-in deobfuscation, host scanning, file scanning, and kernel protection.",
-      image: "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: "https://i0.wp.com/www.ictworks.org/wp-content/uploads/2010/10/computer-virus.png?fit=640%2C400&ssl=1",
       tags: ["Antivirus", "Deobfuscation", "Security", "Malware Analysis"],
       sourceLink: "https://github.com/hippopillow"
     },
@@ -32,7 +32,7 @@ const Projects = () => {
       id: 3,
       title: "Payload Generating AI",
       description: "An AI-powered system that generates customized payloads for penetration testing and security research.",
-      image: "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuXWM6ZMABYZJ5ZFJK8I53zIOGRexLSGD6Dg&s",
       tags: ["AI", "Payload Generation", "Pentesting", "Machine Learning"],
       sourceLink: "https://github.com/hippopillow"
     }
